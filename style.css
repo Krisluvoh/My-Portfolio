@@ -1,0 +1,22 @@
+/*
+    SELECTORS
+        tagname
+        #id
+        .class
+        *
+
+    to use a CSS variable
+        var(--variable-name)
+*/
+
+html {
+    --tiffany-blue: #A0E7E5;
+    --hot-pink: white;
+    --mint: white;
+    --yellow: white;
+}
+
+body {
+    background-color: var(--tiffany-blue);
+    color: black;
+}
