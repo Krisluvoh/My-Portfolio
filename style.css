@@ -32,9 +32,9 @@ body {
 
 .header-photo {
     position: absolute;
-    top: 60px;
-    right: 60px;
-    width: 180px; /* Adjust the width as needed */
+    top: 40px;
+    right: 40px;
+    width: 80px; /* Adjust the width as needed */
     height: auto;
     border-radius: 10%; /* Optional: Add a border-radius for a circular shape */
     border: 1px solid white; /* Optional: Add a border for better visibility */
