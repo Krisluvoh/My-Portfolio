@@ -16,13 +16,7 @@ html {
     --yellow: white;
 }
 
-html, body {
-    scroll-behavior: smooth;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; /* To prevent scrollbars caused by video */
-}
+
 
 body {
     background-color: var(--peach);
@@ -40,7 +34,7 @@ body {
 
 .header-photo {
     position: absolute;
-    top: 100px;
+    top: 250px;
     right: 100px;
     width: 100px; /* Adjust the width as needed */
     height: auto;
