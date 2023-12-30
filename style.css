@@ -32,8 +32,8 @@ body {
 
 .header-photo {
     position: absolute;
-    top: 45px;
-    right: 45px;
+    top: 55px;
+    right: 55px;
     width: 50px; /* Adjust the width as needed */
     height: auto;
     border-radius: 5%; /* Optional: Add a border-radius for a circular shape */
@@ -49,13 +49,13 @@ body {
     right: 0;
     bottom: 0;
     min-width: 100%;
-    min-height: 25%;
+    min-height: 100%;
     z-index: -1; /* Place it behind other content */
   }
 
   .video-container .giphy-embed {
     width: 25%;
-    height: 5%;
+    height: 10%;
   }
 
 
