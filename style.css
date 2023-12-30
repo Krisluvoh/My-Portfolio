@@ -34,7 +34,7 @@ body {
 
 .header-photo {
     position: absolute;
-    top: 250px;
+    top: 100px;
     right: 100px;
     width: 250px; /* Adjust the width as needed */
     height: auto;
