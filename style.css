@@ -34,10 +34,10 @@ body {
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 50px; /* Adjust the width as needed */
+    width: 70px; /* Adjust the width as needed */
     height: auto;
     border-radius: 50%; /* Optional: Add a border-radius for a circular shape */
-    border: 2px solid white; /* Optional: Add a border for better visibility */
+    border: 1px solid white; /* Optional: Add a border for better visibility */
 }
 
 
@@ -48,13 +48,13 @@ body {
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 100%;
+    min-width: 300%;
     min-height: 100%;
     z-index: -1; /* Place it behind other content */
   }
 
   .video-container .giphy-embed {
-    width: 100%;
+    width: 300%;
     height: 100%;
   }
 
