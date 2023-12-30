@@ -46,16 +46,15 @@ body {
 
   .video-container {
     position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 90%;
-    min-height: 90%;
+    top: 0; /* Align to the top */
+    min-width: 50%;
+    min-height: 50%;
     z-index: -1; /* Place it behind other content */
   }
 
   .video-container .giphy-embed {
-    width: 25%;
-    height: 8%;
+    width: 50%;
+    height: 50%;
   }
 
 
