@@ -36,7 +36,7 @@ body {
     position: absolute;
     top: 250px;
     right: 100px;
-    width: 100px; /* Adjust the width as needed */
+    width: 250px; /* Adjust the width as needed */
     height: auto;
     border-radius: 5%; /* Optional: Add a border-radius for a circular shape */
     border: 1px solid white; /* Optional: Add a border for better visibility */
@@ -49,9 +49,9 @@ body {
   .video-container {
     position: fixed;
     top: 0; /* Align to the top */
-    left: 50%;
-    min-width: 50%;
-    min-height: 50%;
+    left: 100%;
+    min-width: 100%;
+    min-height: 100%;
     z-index: -1; /* Place it behind other content */
   }
 
