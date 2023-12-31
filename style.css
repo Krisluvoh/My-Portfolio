@@ -42,8 +42,8 @@ body {
     position: absolute;
     top: 20px;
     right: 20px;
-    width: 2.5in; /* Adjust the width as needed */
-    height: 3.5in;
+    width: 1.5in; /* Adjust the width as needed */
+    height: 2.5in;
     border-radius: 5%; /* Optional: Add a border-radius for a circular shape */
     border: 1px solid white; /* Optional: Add a border for better visibility */
 }
