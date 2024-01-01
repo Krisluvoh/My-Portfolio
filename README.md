@@ -14,7 +14,7 @@ I'm Kristie Cook, a dedicated web developer with a background in software engine
 
 ## Projects
 
-### 1. Zipcode
+### 1. ZipUSA
 - **Description:** ZipUSA database allows users to search by city, state, or zip code, displaying relevant information.
 - **Demo:** [Live Demo](https://zipusa.netlify.app/)
 - **Repository:** [GitHub Repo](https://github.com/Krisluvoh/Zipcode.git)
