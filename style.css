@@ -1,16 +1,8 @@
-/*
-    SELECTORS
-        tagname
-        #id
-        .class
-        *
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
 
-    to use a CSS variable
-        var(--variable-name)
-*/
 
 html {
-    --peach: #E4B7A0;
+    --peach: #f84b31;
     --hot-pink: white;
     --mint: white;
     --yellow: white;
@@ -21,58 +13,105 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden; /* To prevent scrollbars caused by video */
+    /* overflow: hidden; To prevent scrollbars caused by video */
 }
 
 body {
     background-color: var(--peach);
     color: black;
 
-    font-family: 'Arial', sans-serif;
+    /* font-family: 'Arial', sans-serif; */
     margin: 0;
     padding: 0;
-    overflow: hidden; /* To prevent scrollbars caused by video */
+
+    font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; To prevent scrollbars caused by video */
   }
 
-  .header-content {
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Abril Fatface';
+}
+
+
+header {
+  background-image: url("https://www.techrepublic.com/wp-content/uploads/2021/02/programming-coding.jpg");
+  background-size: cover;
+  background-color: #A45C40;
+  padding: 1rem;
+  text-align: center;
+}
+
+header, nav a {
+  color: rgb(200, 21, 21) !important;
+  font-weight: 700;
+  text-shadow: 2px 2px 0 rgb(254, 254, 255);
+}
+
+.header-content {
     position: relative;
+    /* height: 150px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+.header-content nav {
+  /* position: relative; */
+  /* top: 100px; */
+  /* z-index: 1; */
 }
 
 .header-photo {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 2.0in; /* Adjust the width as needed */
-    height: 2.5in;
-    border-radius: 5%; /* Optional: Add a border-radius for a circular shape */
+    /* position: absolute; */
+    /* When you position absolutely, that element is going to look for a "non-static ancestor"  */
+    /* top: -100px; */
+    /* right: 20px; */
+    /* left: 50%; */
+    /* top: -25px; */
+
+    /* height: 100%; */
+    /* float: right; */
+    /* margin: 0 0 20px 20px; */
+    width: 2.0in;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: 0 15%;
+    /* transform: translateX(-50%); */
+    /* height: 2.5in; */
+    border-radius: 50%; /* Optional: Add a border-radius for a circular shape */
     border: 1px solid white; /* Optional: Add a border for better visibility */
+    z-index: 0;
 }
 
-    .video-container {
+
+.about-content {
+  position: relative;
+  text-align: justify;
+}
+
+  .video-container {
     position: fixed;
     top: 0; /* Align to the top */
-    left: 100%;
-    min-width: 100%;
-    min-height: 100%;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     z-index: -1; /* Place it behind other content */
   }
 
   .video-container .giphy-embed {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
   }
 
 
-    header {
-    background-color: #A45C40;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-  }
 
   nav ul {
     list-style: none;
-    padding: 0;
+    padding: 15px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    /* gap: 50px; */
   }
   
   nav li {
@@ -98,10 +137,26 @@ body {
   }
   
   footer {
-    background-color: #A45C40;
+    background-color: #f84b31;
     color: white;
     text-align: center;
     padding: 1rem;
+  }
 
+  #contact {
+    background-image: url("https://www.techrepublic.com/wp-content/uploads/2021/02/programming-coding.jpg");
+    background-size: cover;
+  }
 
-}
+  #links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  #links a {
+    color: black;
+    background-color: #cd392b;
+    border-radius: .5rem;
+    padding: .5rem;
+  }
